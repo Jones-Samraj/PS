@@ -1,0 +1,76 @@
+.codereview-container h2 {
+  font-size: 28.8px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.no-reviews {
+  text-align: center;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.loading-text,
+.error-text {
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.loading-text {
+  color: #1976d2;
+}
+
+.error-text {
+  color: #d32f2f;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.review-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #e0e0e0;
+}
+
+.review-table th {
+  background-color: #e3eefa;
+}
+
+.review-table th,
+.review-table td {
+  padding: 14px 16px;
+  text-align: left;
+  font-size: 15px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.status-reviewed {
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.status-pending {
+  color: #f57c00;
+  font-weight: bold;
+}
+
+.status-error {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.review-table th:first-child {
+  color: #333333;
+}
+
+.review-table td:first-child {
+  width: 60px;
+  text-align: center;
+  font-weight: normal;
+  background-color: inherit;
+  color: inherit;
+}

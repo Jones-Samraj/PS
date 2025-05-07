@@ -1,0 +1,142 @@
+.review-container {
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+.review-title {
+  font-size: 28.8px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.top-head {
+  display: flex;
+  margin-right: -125px;
+}
+
+.review-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  font-family: "Segoe UI", sans-serif;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+.review-table th:first-child {
+  color: black;
+}
+.review-table td:first-child {
+  width: 60px;
+  text-align: center;
+  font-weight: normal;
+  background-color: inherit;
+  color: inherit;
+}
+
+.review-table th,
+.review-table td {
+  padding: 16px;
+  text-align: left;
+  border: 1px solid #ddd;
+  vertical-align: top;
+  font-size: 0.95rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.review-table thead {
+  background-color: rgb(227, 238, 250);
+}
+
+.review-table th {
+  font-size: 1rem;
+  color: black;
+}
+
+.review-table select {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.review-table select:focus option:checked {
+  background-color: rgb(200, 224, 250);
+}
+
+.review-options {
+  padding-left: 16px;
+  list-style-type: decimal;
+  margin: 0;
+}
+
+.review-textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+}
+.review-score-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.review-score-btn:hover {
+  background-color: #45a049;
+}
+
+.review-score-btn.frozen {
+  background-color: rgb(227, 238, 250);
+  color: #666;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.review-score-btn,
+.review-submit {
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.review-score-btn {
+  background-color: #28a745;
+}
+
+.review-score-btn:hover {
+  background-color: #218838;
+}
+
+.review-submit {
+  background-color: rgb(25, 153, 227);
+}
+
+.review-submit:hover {
+  background-color: rgb(19, 126, 188);
+}
+
+select {
+  margin-top: 6px;
+  padding: 4px 8px;
+  font-size: 0.85rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.review-tag {
+  margin-top: 6px;
+  display: block;
+  font-size: 0.8rem;
+  color: #28a745;
+  font-weight: bold;
+}

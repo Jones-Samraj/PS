@@ -1,0 +1,6 @@
+:root {
+  overflow: hidden;
+}
+.MuiBreadcrumbs-li:last-child {
+  display: none;
+}
