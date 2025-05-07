@@ -11,6 +11,9 @@ function Courses() {
 
   const userId = localStorage.getItem("id");
 
+
+
+  
   useEffect(() => {
     fetchCourses();
   }, []);
