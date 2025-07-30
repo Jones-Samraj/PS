@@ -1,0 +1,148 @@
+.review-container {
+  padding: 32px;
+}
+
+.top-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.review-title {
+  margin: 0;
+}
+
+.filter-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-toggle-icon {
+  font-size: 22px;
+  cursor: pointer;
+  margin-top: 2px;
+}
+
+.course-filter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-input {
+  padding: 6px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.review-history-btn {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  height: 36px;
+  margin-left: 6px;
+  margin-right: -135px;
+  transition: background 0.2s;
+}
+
+.review-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 18px;
+}
+
+.review-table th,
+.review-table td {
+  border: 1px solid #e5e7eb;
+  padding: 8px 12px;
+  text-align: left;
+  font-size: 15px;
+}
+
+.review-table th {
+  background: #e3eefa;
+  font-weight: 600;
+  color: black;
+}
+
+.review-options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.review-options li {
+  margin-bottom: 2px;
+}
+
+.review-textarea {
+  width: 100%;
+  min-width: 120px;
+  min-height: 60px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  padding: 6px;
+  font-size: 15px;
+}
+
+.review-score-btn {
+  background: #43a047;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 4px;
+  transition: background 0.2s;
+}
+
+.review-score-btn:hover {
+  background-color: #45a049;
+}
+
+.review-score-btn.frozen {
+  background: #bdbdbd;
+  cursor: not-allowed;
+}
+
+.review-submit {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.review-submit:hover {
+  background-color: rgb(19, 126, 188);
+}
+
+select {
+  margin-top: 6px;
+  padding: 4px 8px;
+  font-size: 0.85rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.review-tag {
+  color: #388e3c;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.review-history-page {
+  padding: 32px;
+}

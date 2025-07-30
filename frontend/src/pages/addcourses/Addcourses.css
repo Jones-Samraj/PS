@@ -1,0 +1,375 @@
+.add-course-container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+  padding: 0 20px;
+}
+
+.adminpage-tophead {
+  display: flex;
+}
+
+.add-course-title {
+  font-size: 28.8px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 1200px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.filter-add {
+  margin-top: 25px;
+}
+
+.filter-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 6px;
+  margin-left: auto;
+  margin-right: 120px;
+  width: fit-content;
+  height: 45px;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.filter-toggle span {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-top: 4px;
+  color: #1976d2;
+}
+
+.filter-toggle span :hover {
+  color: #5eacff;
+}
+
+.course-filter {
+  margin-left: 10px;
+  display: flex;
+  gap: 8px;
+}
+
+.search-input {
+  padding: 9px 15px;
+  font-size: 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  margin-right: -7px;
+}
+
+.search-input:hover {
+  border-color: #1976d2;
+}
+
+.search-input:focus {
+  border-color: #1976d2;
+  outline: none;
+}
+
+.search-filter-select {
+  margin-right: 10px;
+}
+
+.filter-options {
+  margin-top: 0.5rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.filter-options label {
+  font-size: 0.95rem;
+  color: #000000;
+}
+
+.filter-options input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.add-course-grid {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.coursename {
+  margin-left: 10px;
+}
+
+.add-course-card {
+  width: 280px;
+  height: 450px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e0e0e0;
+}
+
+.add-course-card-add {
+  border-radius: 4px;
+  padding: 15px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d1d5db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 100px;
+  height: 20px;
+  margin-top: -47px;
+  margin-bottom: 15px;
+  margin-left: 980px;
+}
+
+.add-course-card-add:hover {
+  border-color: #1976d2;
+}
+
+.add-course-plus {
+  font-size: 20px;
+  color: rgb(25, 118, 210);
+}
+
+.plus {
+  font-size: x-large;
+}
+
+.add-course-img {
+  height: 100px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.add-course-info {
+  margin-left: 30px;
+  font-size: 14px;
+  text-align: left;
+  margin-top: -15px;
+}
+
+.add-course-info b {
+  font-weight: 600;
+}
+
+.dec-material {
+  text-decoration: none;
+  color: #1a73e8;
+  display: inline-block;
+}
+
+.dec-material:hover {
+  text-decoration: underline;
+}
+
+.add-course-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.add-course-buttons button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.add-course-edit-btn {
+  width: 85px;
+  height: 35px;
+  margin-right: 15px;
+  background-color: #1976d2;
+}
+
+.add-course-edit-btn:hover {
+  background-color: #1769bc;
+}
+
+.add-course-delete-btn {
+  width: 85px;
+  height: 35px;
+  background-color: #f95454;
+}
+
+.add-course-delete-btn:hover {
+  background-color: #ec4a4a;
+}
+
+.top-close {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-edit-update {
+  margin-top: 20px;
+  width: 160px;
+  height: 42px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1a73e8;
+  margin-left: 600px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-course-form {
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 1190px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#SerialNumber {
+  margin-right: 0;
+}
+
+.add-crs-edit-mcqs-header {
+  display: flex;
+  margin-left: 10px;
+}
+
+.space-btw-ques {
+  margin-left: 30px;
+  gap: 112px;
+  display: flex;
+}
+
+.add-course-form input,
+.add-course-form select {
+  margin-top: -10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-course-form input:focus,
+.add-course-form select:focus {
+  border-color: #1a73e8;
+  box-shadow: 0 0 5px rgba(26, 115, 232, 0.3);
+  outline: none;
+}
+
+.add-course-mcq-box {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: space-around;
+  justify-content: space-between;
+}
+
+.edit-add-mcq,
+.edit-update,
+.edit-close {
+  width: 160px;
+  height: 42px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1a73e8;
+  margin-left: 20px;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.mcqs-delete-btn {
+  border-radius: 8px;
+  background-color: red;
+  color: white;
+  border: none;
+  margin-top: -8px;
+}
+
+.mcqs-delete-btn:hover {
+  background-color: rgb(230, 3, 3);
+}
+
+.edit-add-mcq:hover,
+.edit-update:hover,
+.edit-close:hover,
+.top-edit-update:hover {
+  background-color: #1558b0;
+}
+
+.dec-material {
+  text-decoration: none;
+  color: #1a73e8;
+  font-weight: 500;
+}
+
+.dec-material:hover {
+  text-decoration: underline;
+}
+
+.add-course-edit-btns {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+select {
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+select option:hover {
+  background-color: #d3e3fc;
+}

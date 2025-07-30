@@ -1,0 +1,103 @@
+.slow-progress-table-container {
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+}
+
+.slow-progress-title {
+  font-size: 28.8px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.slow-progress-table {
+  margin: 0px 20px;
+  width: 97%;
+  border-collapse: collapse;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.slow-progress-table th,
+.slow-progress-table td {
+  padding: 16px;
+  text-align: center;
+  border: 1px solid #ddd;
+  font-size: 0.95rem;
+  vertical-align: middle;
+}
+
+.slow-progress-table thead {
+  background-color: rgb(227, 238, 250);
+}
+
+.slow-progress-table th {
+  color: black;
+  font-size: 1rem;
+}
+
+.slow-progress-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  margin-left: 665px;
+}
+
+.slow-progress-filter-bar.collapsed {
+  margin-left: 1070px;
+}
+
+.slow-progress-filter-toggle-icon {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-top: 4px;
+  color: #1976d2;
+  margin-right: 15px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.slow-progress-filter-toggle-icon:hover {
+  color: #5eacff;
+}
+
+.slow-progress-filter-select,
+.slow-progress-filter-input {
+  margin-left: 10px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  height: 36px;
+  width: 200px;
+}
+
+.slow-progress-select-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.slow-progress-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.slow-progress-filter-input {
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  width: 200px;
+}
+
+.slow-progress-filter-input:hover {
+  border-color: #1976d2;
+}
+
+.slow-progress-filter-input:focus {
+  border-color: #1976d2;
+  outline: none;
+}

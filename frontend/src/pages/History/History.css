@@ -1,0 +1,176 @@
+.history-table-container {
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+  overflow-x: hidden;
+}
+
+.course-summary {
+  overflow-x: auto;
+}
+
+.course-summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: "Segoe UI", sans-serif;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.course-summary-table thead {
+  background-color: rgb(227, 238, 250);
+}
+
+.course-summary-table th,
+.course-summary-table td {
+  padding: 14px 16px;
+  text-align: center;
+  border: 1px solid #ddd;
+  font-size: 0.95rem;
+  vertical-align: middle;
+}
+
+.course-summary-table th {
+  font-weight: bold;
+  font-size: 1rem;
+  color: black;
+}
+
+.history-filter-toggle.summary{
+  margin-left: 648px;
+}
+
+.history-filter-toggle {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 79px;
+}
+
+.history-filter-toggle.collapsed {
+  margin-left: 950px;
+}
+
+.history-filter-toggle span {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1976d2;
+}
+
+.history-filter-toggle span:hover {
+  color: #5eacff;
+}
+
+.history-title {
+  font-size: 28.8px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.course-section {
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.course-section h3 {
+  margin-bottom: 0.5rem;
+}
+
+.historyname-filter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+}
+
+.historypage-course-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.history-progress{
+  overflow-x: auto;
+}
+
+.history-progress-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: "Segoe UI", sans-serif;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.history-progress-table th,
+.history-progress-table td {
+  padding: 14px 16px;
+  text-align: center;
+  border: 1px solid #ddd;
+  font-size: 0.95rem;
+  vertical-align: middle;
+}
+
+.history-progress-table th {
+  background-color: #e3eefa;
+  color: black;
+  font-weight: bold;
+}
+
+.table-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.status-booked {
+  color: green;
+  font-weight: bold;
+}
+
+.status-registered {
+  color: orange;
+  font-weight: bold;
+}
+
+.status-completed {
+  color: green;
+  font-weight: bold;
+}
+
+.toggle-summary-btn {
+  border-radius: 4px;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 200px;
+  border: 1px solid #d1d5db;
+  background-color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #333;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.toggle-summary-btn:hover {
+  border-color: #1976d2;
+  color: #1976d2;
+}
+
+.search-input {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  width: 200px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #1976d2;
+}
